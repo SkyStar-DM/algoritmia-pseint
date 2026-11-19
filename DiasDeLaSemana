@@ -1,0 +1,32 @@
+Algoritmo DiaDeLaSemana
+//Dado el número de día de la semana (1 si es lunes, etc), imprimir el texto del día
+Definir dia Como Entero
+Definir resultado Como Cadena
+Escribir "Ingresar el número del día de la semana (1-7) :"
+Leer dia
+Segun dia Hacer
+  1:
+    resultado <- "Lunes"
+    Escribir "Hoy es : ", resultado
+  2:
+    resultado <- "Martes"
+    Escribir "Hoy es : ", resultado
+  3:
+    resultado <- "Miércoles"
+    Escribir "Hoy es : ", resultado
+  4:
+    resultado <- "Jueves"
+    Escribir "Hoy es : ", resultado
+  5:
+    resultado <- "viernes"
+    Escribir "Hoy es : ", resultado
+  6:
+    resultado <- "Sábado"
+    Escribir "Hoy es : ", resultado
+  7:
+    resultado <- "Domingo"
+    Escribir "Hoy es : ", resultado
+  De Otro Modo:
+    Escribir "Ingresar el número de día correcto"
+FinSegun
+FinAlgoritmo
