@@ -1,0 +1,26 @@
+Algoritmo ConvertidorDeMonedas
+//Convertir soles a diferentes monedas (USD, EUR, GBP, CLP)
+Definir soles, resultado Como Real
+Definir tipoMoneda Como Cadena
+Escribir "Ingresa la cantidad en soles:"
+Leer soles
+Escribir "Selecciona la moneda a la cual deseas convertir tus soles (USD, EURK GBP, CLP)"
+Leer tipoMoneda
+tipoMoneda <- Mayusculas(tipoMoneda)
+Segun tipoMoneda Hacer
+  "USD":
+    resultado <- soles * 0.29
+    Escribir soles, " soles son ", resultado, " dólares"
+  "EUR":
+    resultado <- soles * 0.27
+    Escribir soles, " soles son ", resultado, " euros"
+  "GBP":
+     resultado <- soles * 0.22
+     Escribir soles, " soles son ", resultado, " libras esterlinas"
+  "CLP":
+     resultado <- soles * 293.61
+     Escribir soles, " soles son ", resultado, " pesos chilenos"
+  De Otro Modo:
+    Escribir "Moneda no válida"
+FinSegun
+FinAlgoritmo
