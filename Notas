@@ -1,0 +1,19 @@
+Algoritmo Notas
+//Ingresar una nota (0-20) y mostrar si el alumno está desaprobado (<11), aprobado (11-16), o sobresaliente(17-20).
+ Definir nota Como Entero
+ Escribir "Ingresa la nota del alumno del 0 al 20:"
+ Leer nota
+Si nota<0 o nota>20 Entonces
+  Escribir "La nota es inválida, debe ser notas del 0 al 20"
+SiNo
+  Si nota < 11 Entonces
+    Escribir "El alumno está desaprobado"
+  SiNo
+    Si nota < 17 Entonces
+      Escribir "El alumno está aprobado"
+    SiNo
+      Escribir "El alumno es sobresaliente"
+    FinSi
+  FinSi
+FinSi
+FinAlgoritmo
